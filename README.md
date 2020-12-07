@@ -13,17 +13,17 @@ Since tunnel control traffic is expected at the root domain, while tunnel traffi
 
 ## Usage
 
-## 1. Build `tunnelto_server`
+### 1. Build `tunnelto_server`
 
 1. From the root of this repository, run `git clone https://github.com/agrinman/tunnelto`.
 
 2. `cd tunnelto; sh musl_build.sh`
 
-## 2. Build and run Docker container
+### 2. Build and run Docker container
 
 From the root of this repository, run `cd docker; docker-compose up`
 
-## 3. Enjoy!
+### 3. Enjoy!
 
 Try out these local curl commands and observe the logs from `docker-compose` to verify routing:
 
