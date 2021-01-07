@@ -6,7 +6,6 @@ services:
       dockerfile: docker/Dockerfile
     ports:
       - 8080:80
-    env_file: ./.env
     environment:
       - PORT=80
       # `localhost2,localhost3` is for testing/illustration purposes to show how
